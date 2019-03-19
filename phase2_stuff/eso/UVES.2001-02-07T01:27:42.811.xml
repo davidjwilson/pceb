@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<association category="UNKNOWN_CATEGORY" certified="false"
+    complete="false" type="main">
+    <mainFiles>
+        <file category="UNKNOWN_CATEGORY" name="UVES.2001-02-07T01:27:42.811"/>
+    </mainFiles>
+    <messages>
+        <message text="No association could be established for this file. Please see http://www.eso.org/sci/archive/calselectorInfo.html for more information."/>
+    </messages>
+    <associatedFiles/>
+</association>

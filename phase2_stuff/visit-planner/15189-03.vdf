@@ -1,0 +1,31 @@
+(RPS-Stamp
+   :proposal 15189
+   :visit "03"
+   :absolute-time 3715945908
+   :sub-system "APT"
+   :version "25.2.2"
+   :file-name "15189-03.vdf"
+)
+
+(define-fixed-target
+   :proposal-id 15189
+   :visit-id "03"
+   :target-number "2"
+   :target-id "V-UZ-SEX"
+   :ra 157.14534
+   :dec -0.008199999999987995
+)
+(define-visit
+   :proposal-id 15189
+   :visit-id "03"
+   :target-ids '("V-UZ-SEX")
+   :dark nil
+   :low-sky nil
+   :trans-efficiency-level 30
+   :cvz nil
+   :parallel nil
+   :visit-status :active
+)
+(End-RPS-File
+   :checksum 0
+)

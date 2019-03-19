@@ -1,0 +1,31 @@
+(RPS-Stamp
+   :proposal 15189
+   :visit "08"
+   :absolute-time 3717325349
+   :sub-system "APT"
+   :version "25.2.2"
+   :file-name "15189-08.vdf"
+)
+
+(define-fixed-target
+   :proposal-id 15189
+   :visit-id "08"
+   :target-number "8"
+   :target-id "WD-1339+606"
+   :ra 205.25010208333333
+   :dec 60.43624722222222
+)
+(define-visit
+   :proposal-id 15189
+   :visit-id "08"
+   :target-ids '("WD-1339+606")
+   :dark nil
+   :low-sky nil
+   :trans-efficiency-level 30
+   :cvz nil
+   :parallel nil
+   :visit-status :active
+)
+(End-RPS-File
+   :checksum 0
+)

@@ -1,0 +1,11 @@
+(RPS-Stamp
+   :proposal 15189
+   :absolute-time 3717325358
+   :sub-system "APT"
+   :version "25.2.2"
+   :file-name "15189.ldf"
+)
+
+(End-RPS-File
+   :checksum 0
+)

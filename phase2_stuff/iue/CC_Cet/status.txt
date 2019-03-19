@@ -1,0 +1,17 @@
+IUE Request Status             Thu Sep 28 09:09:15 2017
+
+
+Observations requested: 1
+Requested data type(s): mxlo,mxhi
+Compression type: tar
+Data format: NEWSIPS
+
+
+    File Name         Uncompressed File Size (KB)
+
+swp27392.mxlo                    49.0
+
+
+ Number of files to be downloaded = 1
+ Total uncompressed file size (KB) =       49.0
+

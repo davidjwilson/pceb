@@ -1,0 +1,50 @@
+(RPS-Stamp
+   :proposal 15189
+   :absolute-time 3717325354
+   :sub-system "APT"
+   :version "25.2.2"
+   :file-name "15189-10.tv-tic"
+)
+
+
+(Tic-Visit
+ :proposal-id 15189
+ :visit-id "10"
+ :proposal-version -1
+ :trans-version "20170613"
+ :date "18-Oct-2017 15:22:15.0"
+ :trans-errors '(:WARNINGS 1 :ERRORS 0 :HEALTH-AND-SAFETY 0
+                 :FATAL-ERRORS 0 :CONTINUABLE-FATALS 0)
+ :number-of-orbits 1
+ :saa-model "31"
+ :si-bright-earth-limb-angle 20.0
+ :data-volume 148000
+ :tdrss-contact-duration 0
+ :coron NIL
+ )
+
+(Tic-Obset
+ :proposal-id 15189
+ :visit-id "10"
+ :obset-id "10"
+ :pcs-mode "FGS"
+ )
+
+(Tic-Orbit
+ :proposal-id 15189
+ :visit-id "10"
+ :orbit-number 1
+ :pcs-time 333
+ :si-vis-utilization 2780
+ :al-overhead-at-end 0
+ :internal-dur-at-end 360
+ :dark-offset NIL
+ :dark-utilization 0
+ :max-dark-utilization 1920
+ :low-sky "N"
+ :pcs-visibility 3216
+ :pcs-gap 0
+ )
+(End-RPS-File
+   :checksum 0
+)

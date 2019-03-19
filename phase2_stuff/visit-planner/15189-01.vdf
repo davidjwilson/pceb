@@ -1,0 +1,31 @@
+(RPS-Stamp
+   :proposal 15189
+   :visit "01"
+   :absolute-time 3717325338
+   :sub-system "APT"
+   :version "25.2.2"
+   :file-name "15189-01.vdf"
+)
+
+(define-fixed-target
+   :proposal-id 15189
+   :visit-id "01"
+   :target-number "1"
+   :target-id "V-CC-CET"
+   :ra 47.72910916666667
+   :dec 9.823819444444444
+)
+(define-visit
+   :proposal-id 15189
+   :visit-id "01"
+   :target-ids '("V-CC-CET")
+   :dark nil
+   :low-sky nil
+   :trans-efficiency-level 30
+   :cvz nil
+   :parallel nil
+   :visit-status :active
+)
+(End-RPS-File
+   :checksum 0
+)

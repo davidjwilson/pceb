@@ -1,0 +1,31 @@
+(RPS-Stamp
+   :proposal 15189
+   :visit "02"
+   :absolute-time 3715518855
+   :sub-system "APT"
+   :version "25.2.2"
+   :file-name "15189-02.vdf"
+)
+
+(define-fixed-target
+   :proposal-id 15189
+   :visit-id "02"
+   :target-number "7"
+   :target-id "V-V727-CAR"
+   :ra 161.04262083333333
+   :dec -69.30508888888892
+)
+(define-visit
+   :proposal-id 15189
+   :visit-id "02"
+   :target-ids '("V-V727-CAR")
+   :dark nil
+   :low-sky nil
+   :trans-efficiency-level 30
+   :cvz nil
+   :parallel nil
+   :visit-status :active
+)
+(End-RPS-File
+   :checksum 0
+)
