@@ -1,0 +1,44 @@
+Output generated on 2020-04-23 at 18:52:39 UTC
+from http://www.montrealwhitedwarfdatabase.org/evolution.html
+
+======================Input=======================
+Effective temperature [K]:               21488
+Log of surface gravity [cgs]:            7.73
+Spectral type [DA or DB]:                DA
+Envelope thickness [thin or thick]:      thick
+
+======================Output======================
+Radius [R_Sun]:                          0.0158
+Mass [M_Sun]:                            0.490
+Luminosity [L_Sun]:                      0.04765
+Cooling time [Gyr]:                      0.030
+Gravitational redshift [km/s]:           19.7
+Envelope mass ratio [log(q)]:           -15.996
+Log of diffusion timecale [years]:
+Li  -1.492
+Be  -1.128
+B   -1.313
+C   -1.600
+N   -1.761
+O   -1.862
+F   -1.952
+Ne  -1.990
+Na  -2.030
+Mg  -1.552
+Al  -1.568
+Si  -1.622
+P   -1.678
+S   -1.719
+Cl  -1.927
+Ar  -2.069
+K   -2.130
+Ca  -1.768
+Sc  -1.776
+Ti  -1.798
+V   -1.841
+Cr  -1.859
+Mn  -1.889
+Fe  -1.906
+Co  -1.934
+Ni  -1.935
+Cu  -1.968
