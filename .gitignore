@@ -1,3 +1,4 @@
 #don't want to upload big igrns/xmm files
 *.fits
 xmm/data/*
+*.zip
