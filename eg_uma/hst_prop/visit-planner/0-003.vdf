@@ -1,0 +1,39 @@
+(RPS-Stamp
+   :proposal 0
+   :visit "003"
+   :absolute-time 3810061022
+   :sub-system "APT"
+   :version "2020.4"
+   :file-name "0-003.vdf"
+)
+
+(define-fixed-target
+   :proposal-id 0
+   :visit-id "003"
+   :target-number "1"
+   :target-id "V-EG-UMA"
+   :ra 183.93310166666666
+   :dec 52.51645555555555
+)
+(define-visit
+   :proposal-id 0
+   :visit-id "003"
+   :target-ids '("V-EG-UMA")
+   :dark nil
+   :low-sky nil
+   :trans-efficiency-level 100
+   :cvz nil
+   :parallel nil
+   :visit-status :active
+)
+(define-proposer-window
+   :proposal-id 0
+   :visit-id "003"
+   :window-start "2021.040:00:00:00"
+   :window-end "2021.123:00:00:00"
+   :windows '(("2021.040:00:00:00" "2021.123:00:00:00")
+              ("2021.216:00:00:00" "2021.315:00:00:00"))
+)
+(End-RPS-File
+   :checksum 0
+)

@@ -1,0 +1,11 @@
+# Original filename: file-name.csv,,
+# Created by: Name,,
+# Created on: date,,
+# Number of targets: nnnn,,
+# Ecliptic latitude range: nnn.nnnnnn to nnn.nnnnnn,,
+# Tmag range: nn.nn to nn.nn,,
+# ,,
+# Column 1: TIC ID,,
+# Column 2: Priority (float - 1.0 highest, 0.0 lowest),
+# Column 3: Keywords (separated by semi-colon),,
+# tic,priority,keywords

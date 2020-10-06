@@ -1,0 +1,12 @@
+# Original filename: file-name.csv,,
+# Created by: David Wilson,,
+# Created on: 20200903,,
+# Number of targets: 0001,,
+# Ecliptic latitude range: 10.62112124 to 10.62112124,,
+# Tmag range: 15.06 to 15.06,,
+# ,,
+# Column 1: TIC ID,,
+# Column 2: Priority (float - 1.0 highest, 0.0 lowest),
+# Column 3: Keywords (separated by semi-colon),,
+# tic,priority,keywords
+337219837, 1, CC Cet
