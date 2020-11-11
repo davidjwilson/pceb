@@ -1,0 +1,11 @@
+(RPS-Stamp
+   :proposal 0
+   :absolute-time 3811006065
+   :sub-system "APT"
+   :version "2020.4"
+   :file-name "0.ldf"
+)
+
+(End-RPS-File
+   :checksum 0
+)

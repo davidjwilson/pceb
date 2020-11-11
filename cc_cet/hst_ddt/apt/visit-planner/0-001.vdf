@@ -1,0 +1,39 @@
+(RPS-Stamp
+   :proposal 0
+   :visit "001"
+   :absolute-time 3811006065
+   :sub-system "APT"
+   :version "2020.4"
+   :file-name "0-001.vdf"
+)
+
+(define-fixed-target
+   :proposal-id 0
+   :visit-id "001"
+   :target-number "1"
+   :target-id "V-CC-CET"
+   :ra 47.729335582750835
+   :dec 9.823449968971666
+)
+(define-visit
+   :proposal-id 0
+   :visit-id "001"
+   :target-ids '("V-CC-CET")
+   :dark nil
+   :low-sky nil
+   :trans-efficiency-level 100
+   :cvz nil
+   :parallel nil
+   :visit-status :active
+)
+(define-proposer-window
+   :proposal-id 0
+   :visit-id "001"
+   :window-start "2020.295:00:00:00"
+   :window-end "2020.309:00:00:00"
+   :windows '(("2020.295:00:00:00" "2020.309:00:00:00")
+              ("2020.310:00:00:00" "2020.324:00:00:00"))
+)
+(End-RPS-File
+   :checksum 0
+)

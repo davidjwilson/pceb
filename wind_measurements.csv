@@ -1,0 +1,9 @@
+Name,spType,spn,mdot,log_mdot,e_mdot,method,notes
+GJ 436,M2.5,2.50,1.20E-15,-1.49E+01,0.40,exoplanet transit,errors approximated from range
+EV Lac,M3.5,3.50,2.00E-14,-1.37E+01,0.20,lya,errors approximated 
+WD 1026+002,M4,4.00,1.00E-16,-1.60E+01,0.50,pceb,
+EG UMa,M4.5,4.50,1.00E-16,-1.60E+01,0.50,pceb,
+Prox Cen,M5.5,5.50,4.00E-15,-1.44E+01,0.00,xray,
+RR Cae,M6.5,6.50,6.00E-15,-1.42E+01,0.50,pceb,
+SDSS J1212-0123,M4,4.00,3.90E-15,-1.44E+01,0.50,pceb,parsons12
+GK Vir,M4.5,4.50,8.20E-16,-1.51E+01,0.50,pceb,parsons12
