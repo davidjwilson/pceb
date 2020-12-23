@@ -2,3 +2,6 @@
 *.fits
 xmm/data/*
 *.zip
+eg_uma/hst_budget/*
+eg_uma/hst_prop/visit-planner/*
+*apt*

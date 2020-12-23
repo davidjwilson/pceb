@@ -1,11 +1,11 @@
 (RPS-Stamp
   :proposal 0
-  :absolute-time 3810061086
+  :absolute-time 3814557609
   :sub-system "CASM"
   :version "28.2"
   :file-name "0.cp-diag"
-  :constraint-set "mar20-phase1-3g"
-  :control-file "phase1-3g"
+  :constraint-set "mar20-phase2-3g"
+  :control-file "phase2-3g"
 )
 
 
