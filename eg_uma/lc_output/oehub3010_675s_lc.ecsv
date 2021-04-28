@@ -1,0 +1,10 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: TIME, unit: MJD, datatype: float64}
+# - {name: FLUX, unit: 1 / s, datatype: float64}
+# - {name: ERROR, unit: 1 / s, datatype: float64}
+# schema: astropy-2.0
+TIME FLUX ERROR
+59330.828205529906 0.0793680747700452 0.0069605639980230335
+59330.8360195888 0.09808838254951632 0.007286586145877326

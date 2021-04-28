@@ -1194,3 +1194,17 @@ End      05-Apr-2021 12:13:52 CDT
 End      05-Apr-2021 12:13:52 CDT
 
 *** CALSTIS-0 complete ***
+
+*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    26-Apr-2021 20:19:41 CDT
+
+Input    lc_output/oehua1010_100s_raw.fits
+Outroot  lc_output/oehua1010_100s
+Wavecal  /media/david/5tb_storage1/eg_uma/hst/stis/data/oehua1010_wav.fits
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    26-Apr-2021 20:19:41 CDT
+Input    lc_output/oehua1010_100s_raw.fits
+Output   lc_output/oehua1010_100s_flt.fits
+ERROR    Output file `lc_output/oehua1010_100s_flt.fits' already exists.
+calstis0 failed.
