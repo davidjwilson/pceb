@@ -1,0 +1,74 @@
+line,wavelength,absorption,emission,ISM
+CII,1174,n,y,n
+SiIII,1206.51,n,y,n
+NV,1238.821,n,y,n
+NV,1242.804,n,y,n
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+O,1302,y,y,n
+Si,1300,y,y,n
+CII,1334,y,y,n
+CII,1335,y,y,n
+?,1356,y,n,n
+SiIV,1393.755,y,y,n
+SIIV,1402.77,,,n
+CII,1334.532,n,n,y
+CII,1335.703,n,n,y
+NI,1134.165,n,n,y
+NI,1134.415,n,n,y
+NI,1134.98,n,n,y
+NI,1199.549,n,n,y
+NI,1200.224,n,n,y
+NI,1200.711,n,n,y
+OI,1302.168,n,n,y
+SiII,1190.416,n,n,y
+SiII,1193.289,n,n,y
+SiII,1260.421,n,n,y
+SiII,1304.372,n,n,y
+SII,1250.586,n,n,y
+SII,1253.812,n,n,y
+SII,1259.52,n,n,y
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+SiIII,1260.422,n,n,n
+SiIII,1264.738,n,n,n
+SiIII,1265.002,n,n,n
+SiIII,1304.37,n,n,n
+SiIII,1305.592,n,n,n
+SiIII,1309.276,n,n,n
+SiIII,1309.453,n,n,n
+SiIII,1311.256,n,n,n
+SiIII,1346.884,n,n,n
+SiIII,1348.543,n,n,n
+SiIII,1350.072,n,n,n
+SiIII,1350.516,n,n,n
+SiIII,1350.656,n,n,n
+SiIII,1352.635,n,n,n
+SiIII,1353.721,n,n,n
+,,,,
+OI,1152.15,y,n,n
+OI,1302.17,n,n,n
+OI,1304.86,n,n,n
+OI,1306.03,n,n,n
+,,,,
+C I,1328.8332,n,n,n
+C I,1329.0861,n,n,n
+C I,1329.0999,n,n,n
+C I,1329.1233,n,n,n
+C I,1329.5777,n,n,n
+C I,1329.6001,n,n,n
