@@ -1,13 +1,9 @@
 # %ECSV 0.9
 # ---
 # datatype:
-# - name: WAVELENGTH
-#   unit: um
-#   datatype: float64
-# - name: FLUX
-#   datatype: float64
-# - name: ERROR
-#   datatype: float64
+# - {name: WAVELENGTH, unit: um, datatype: float64}
+# - {name: FLUX, datatype: float64}
+# - {name: ERROR, datatype: float64}
 # schema: astropy-2.0
 WAVELENGTH FLUX ERROR
 1.4297639534144153 0.0 0.0
