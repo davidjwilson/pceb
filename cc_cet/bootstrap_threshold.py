@@ -121,6 +121,6 @@ for lc in lcs:
     print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
     print("%%%%%%%%     Commencing bootstrapping for", obj_name,"    %%%%%%%%")
     # Estimate the false alarm probability lever in units of percent and <A>
-    fap_percent, fap_amp = calc_threshold(time,flux,bootnum=25,percentile=99.9,parallel=True)
+    fap_percent, fap_amp = calc_threshold(time,flux,bootnum=10000,percentile=99.9,parallel=True)
 
 
