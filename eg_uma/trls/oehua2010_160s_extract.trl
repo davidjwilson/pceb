@@ -1,21 +1,21 @@
 
 *** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    04-Feb-2022 13:26:32 MST
+Begin    31-Mar-2022 17:40:13 MDT
 
-Input    lc_output/oehub3010_335s_raw.fits
-Outroot  lc_output/oehub3010_335s
-Wavecal  /media/david/2tb_ext_hd/hddata/eg_uma/hst/stis/oehub3010_wav.fits
+Input    lc_output/oehua2010_160s_raw.fits
+Outroot  lc_output/oehua2010_160s
+Wavecal  /media/david/2tb_ext_hd/hddata/eg_uma/hst/stis/oehua2010_wav.fits
 
 *** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    04-Feb-2022 13:26:32 MST
-Input    lc_output/oehub3010_335s_raw.fits
-Output   lc_output/oehub3010_335s_flt.fits
+Begin    31-Mar-2022 17:40:13 MDT
+Input    lc_output/oehua2010_160s_raw.fits
+Output   lc_output/oehua2010_160s_flt.fits
 OBSMODE  TIME-TAG
 APERTURE 52X0.1
 OPT_ELEM G140M
 DETECTOR FUV-MAMA
 
-Imset 1  Begin 13:26:32 MST
+Imset 1  Begin 17:40:13 MDT
 
 DQICORR  PERFORM
 DQITAB   oref$uce15153o_bpx.fits
@@ -55,33 +55,9 @@ DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
 
 STATFLAG PERFORM
 STATFLAG COMPLETE
-Imset 1  End 13:26:32 MST
+Imset 1  End 17:40:13 MDT
 
-Imset 2  Begin 13:26:32 MST
-
-DQICORR  PERFORM
-DQICORR  COMPLETE
-
-LORSCORR OMIT
-
-GLINCORR PERFORM
-LFLGCORR PERFORM
-GLINCORR COMPLETE
-LFLGCORR COMPLETE
-
-DARKCORR PERFORM
-DARKCORR COMPLETE
-
-FLATCORR PERFORM
-FLATCORR COMPLETE
-
-DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
-
-STATFLAG PERFORM
-STATFLAG COMPLETE
-Imset 2  End 13:26:32 MST
-
-Imset 3  Begin 13:26:32 MST
+Imset 2  Begin 17:40:13 MDT
 
 DQICORR  PERFORM
 DQICORR  COMPLETE
@@ -103,9 +79,9 @@ DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
 
 STATFLAG PERFORM
 STATFLAG COMPLETE
-Imset 3  End 13:26:32 MST
+Imset 2  End 17:40:14 MDT
 
-Imset 4  Begin 13:26:32 MST
+Imset 3  Begin 17:40:14 MDT
 
 DQICORR  PERFORM
 DQICORR  COMPLETE
@@ -127,22 +103,142 @@ DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
 
 STATFLAG PERFORM
 STATFLAG COMPLETE
-Imset 4  End 13:26:33 MST
+Imset 3  End 17:40:14 MDT
 
-End      04-Feb-2022 13:26:33 MST
+Imset 4  Begin 17:40:14 MDT
+
+DQICORR  PERFORM
+DQICORR  COMPLETE
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+
+DARKCORR PERFORM
+DARKCORR COMPLETE
+
+FLATCORR PERFORM
+FLATCORR COMPLETE
+
+DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+Imset 4  End 17:40:14 MDT
+
+Imset 5  Begin 17:40:14 MDT
+
+DQICORR  PERFORM
+DQICORR  COMPLETE
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+
+DARKCORR PERFORM
+DARKCORR COMPLETE
+
+FLATCORR PERFORM
+FLATCORR COMPLETE
+
+DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+Imset 5  End 17:40:14 MDT
+
+Imset 6  Begin 17:40:14 MDT
+
+DQICORR  PERFORM
+DQICORR  COMPLETE
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+
+DARKCORR PERFORM
+DARKCORR COMPLETE
+
+FLATCORR PERFORM
+FLATCORR COMPLETE
+
+DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+Imset 6  End 17:40:14 MDT
+
+Imset 7  Begin 17:40:14 MDT
+
+DQICORR  PERFORM
+DQICORR  COMPLETE
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+
+DARKCORR PERFORM
+DARKCORR COMPLETE
+
+FLATCORR PERFORM
+FLATCORR COMPLETE
+
+DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+Imset 7  End 17:40:14 MDT
+
+Imset 8  Begin 17:40:14 MDT
+
+DQICORR  PERFORM
+DQICORR  COMPLETE
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+
+DARKCORR PERFORM
+DARKCORR COMPLETE
+
+FLATCORR PERFORM
+FLATCORR COMPLETE
+
+DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+Imset 8  End 17:40:15 MDT
+
+End      31-Mar-2022 17:40:15 MDT
 
 *** CALSTIS-1 complete ***
 
 *** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    04-Feb-2022 13:26:33 MST
-Input    /media/david/2tb_ext_hd/hddata/eg_uma/hst/stis/oehub3010_wav.fits
-Output   lc_output/oehub3010_335s_fwv_tmp.fits
+Begin    31-Mar-2022 17:40:15 MDT
+Input    /media/david/2tb_ext_hd/hddata/eg_uma/hst/stis/oehua2010_wav.fits
+Output   lc_output/oehua2010_160s_fwv_tmp.fits
 OBSMODE  ACCUM
 APERTURE 52X0.1
 OPT_ELEM G140M
 DETECTOR FUV-MAMA
 
-Imset 1  Begin 13:26:33 MST
+Imset 1  Begin 17:40:15 MDT
 
 DQICORR  PERFORM
 DQITAB   oref$uce15153o_bpx.fits
@@ -183,23 +279,23 @@ DOPPCORR OMIT
 
 STATFLAG PERFORM
 STATFLAG COMPLETE
-Imset 1  End 13:26:33 MST
+Imset 1  End 17:40:15 MDT
 
-End      04-Feb-2022 13:26:33 MST
+End      31-Mar-2022 17:40:15 MDT
 
 *** CALSTIS-1 complete ***
 
 *** CALSTIS-7 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    04-Feb-2022 13:26:33 MST
-Input    lc_output/oehub3010_335s_fwv_tmp.fits
-Output   lc_output/oehub3010_335s_w2d_tmp.fits
+Begin    31-Mar-2022 17:40:15 MDT
+Input    lc_output/oehua2010_160s_fwv_tmp.fits
+Output   lc_output/oehua2010_160s_w2d_tmp.fits
 OBSMODE  ACCUM
 APERTURE 52X0.1
 OPT_ELEM G140M
 DETECTOR FUV-MAMA
-Imset 1  Begin 13:26:33 MST
+Imset 1  Begin 17:40:15 MDT
 
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:15 MDT
 
 X2DCORR  PERFORM
 DISPCORR PERFORM
@@ -225,22 +321,22 @@ SPTRCTAB DESCRIP =New G140L traces and updated Echelle A2CENTER values
 SPTRCTAB DESCRIP =Sandoval, Initial Postlaunch Calibration
 X2DCORR  COMPLETE
 DISPCORR COMPLETE
-Order 1  End 13:26:33 MST
-Imset 1  End 13:26:33 MST
+Order 1  End 17:40:15 MDT
+Imset 1  End 17:40:15 MDT
 
-End      04-Feb-2022 13:26:33 MST
+End      31-Mar-2022 17:40:15 MDT
 
 *** CALSTIS-7 complete ***
 
 *** CALSTIS-4 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    04-Feb-2022 13:26:33 MST
-Input    lc_output/oehub3010_335s_w2d_tmp.fits
+Begin    31-Mar-2022 17:40:15 MDT
+Input    lc_output/oehua2010_160s_w2d_tmp.fits
 OBSMODE  ACCUM
 APERTURE 52X0.1
 OPT_ELEM G140M
 DETECTOR FUV-MAMA
 
-Imset 1  Begin 13:26:33 MST
+Imset 1  Begin 17:40:15 MDT
 
 WAVECORR PERFORM
 WCPTAB   oref$16j1600co_wcp.fits
@@ -258,58 +354,74 @@ APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
 Warning  Skipping current occulting bar ... \
 Warning  Peak of cross correlation is 0 of the expected value, \
 Warning  which is outside the allowed range 0.5 to 1.5
-         Shift in dispersion direction is -4.941 pixels.
-         Shift in spatial direction is -16.362 pixels.
+         Shift in dispersion direction is -4.279 pixels.
+         Shift in spatial direction is -10.427 pixels.
 WAVECORR COMPLETE
-Imset 1  End 13:26:33 MST
+Imset 1  End 17:40:15 MDT
 
-End      04-Feb-2022 13:26:33 MST
+End      31-Mar-2022 17:40:15 MDT
 
 *** CALSTIS-4 complete ***
 
 *** CALSTIS-12 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    04-Feb-2022 13:26:33 MST
-Wavecal  lc_output/oehub3010_335s_w2d_tmp.fits
-Science  lc_output/oehub3010_335s_flt.fits
+Begin    31-Mar-2022 17:40:15 MDT
+Wavecal  lc_output/oehua2010_160s_w2d_tmp.fits
+Science  lc_output/oehua2010_160s_flt.fits
 OBSMODE  TIME-TAG
 APERTURE 52X0.1
 OPT_ELEM G140M
 DETECTOR FUV-MAMA
-Imset 1  Begin 13:26:33 MST
-         SHIFTA1 set to -4.94097
-         SHIFTA2 set to -16.3623
-Imset 1  End 13:26:33 MST
-Imset 2  Begin 13:26:33 MST
-         SHIFTA1 set to -4.94097
-         SHIFTA2 set to -16.3623
-Imset 2  End 13:26:33 MST
-Imset 3  Begin 13:26:33 MST
-         SHIFTA1 set to -4.94097
-         SHIFTA2 set to -16.3623
-Imset 3  End 13:26:33 MST
-Imset 4  Begin 13:26:33 MST
-         SHIFTA1 set to -4.94097
-         SHIFTA2 set to -16.3623
-Imset 4  End 13:26:33 MST
+Imset 1  Begin 17:40:15 MDT
+         SHIFTA1 set to -4.27891
+         SHIFTA2 set to -10.4268
+Imset 1  End 17:40:15 MDT
+Imset 2  Begin 17:40:15 MDT
+         SHIFTA1 set to -4.27891
+         SHIFTA2 set to -10.4268
+Imset 2  End 17:40:15 MDT
+Imset 3  Begin 17:40:15 MDT
+         SHIFTA1 set to -4.27891
+         SHIFTA2 set to -10.4268
+Imset 3  End 17:40:15 MDT
+Imset 4  Begin 17:40:15 MDT
+         SHIFTA1 set to -4.27891
+         SHIFTA2 set to -10.4268
+Imset 4  End 17:40:15 MDT
+Imset 5  Begin 17:40:15 MDT
+         SHIFTA1 set to -4.27891
+         SHIFTA2 set to -10.4268
+Imset 5  End 17:40:15 MDT
+Imset 6  Begin 17:40:15 MDT
+         SHIFTA1 set to -4.27891
+         SHIFTA2 set to -10.4268
+Imset 6  End 17:40:15 MDT
+Imset 7  Begin 17:40:15 MDT
+         SHIFTA1 set to -4.27891
+         SHIFTA2 set to -10.4268
+Imset 7  End 17:40:15 MDT
+Imset 8  Begin 17:40:15 MDT
+         SHIFTA1 set to -4.27891
+         SHIFTA2 set to -10.4268
+Imset 8  End 17:40:15 MDT
 
-End      04-Feb-2022 13:26:33 MST
+End      31-Mar-2022 17:40:15 MDT
 
 *** CALSTIS-12 complete ***
 
 *** CALSTIS-7 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    04-Feb-2022 13:26:33 MST
-Input    lc_output/oehub3010_335s_flt.fits
-Output   lc_output/oehub3010_335s_x2d.fits
+Begin    31-Mar-2022 17:40:15 MDT
+Input    lc_output/oehua2010_160s_flt.fits
+Output   lc_output/oehua2010_160s_x2d.fits
 OBSMODE  TIME-TAG
 APERTURE 52X0.1
 OPT_ELEM G140M
 DETECTOR FUV-MAMA
-Imset 1  Begin 13:26:33 MST
+Imset 1  Begin 17:40:15 MDT
 
 HELCORR  PERFORM
 HELCORR  COMPLETE
 
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:15 MDT
 
 X2DCORR  PERFORM
 DISPCORR PERFORM
@@ -355,14 +467,14 @@ Warning  Keyword `BUNIT' is being added to header.
 FLUXCORR COMPLETE
 X2DCORR  COMPLETE
 DISPCORR COMPLETE
-Order 1  End 13:26:33 MST
-Imset 1  End 13:26:33 MST
-Imset 2  Begin 13:26:33 MST
+Order 1  End 17:40:15 MDT
+Imset 1  End 17:40:15 MDT
+Imset 2  Begin 17:40:15 MDT
 
 HELCORR  PERFORM
 HELCORR  COMPLETE
 
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:15 MDT
 
 X2DCORR  PERFORM
 DISPCORR PERFORM
@@ -373,14 +485,14 @@ Warning  Keyword `BUNIT' is being added to header.
 FLUXCORR COMPLETE
 X2DCORR  COMPLETE
 DISPCORR COMPLETE
-Order 1  End 13:26:33 MST
-Imset 2  End 13:26:33 MST
-Imset 3  Begin 13:26:33 MST
+Order 1  End 17:40:15 MDT
+Imset 2  End 17:40:15 MDT
+Imset 3  Begin 17:40:15 MDT
 
 HELCORR  PERFORM
 HELCORR  COMPLETE
 
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:15 MDT
 
 X2DCORR  PERFORM
 DISPCORR PERFORM
@@ -391,14 +503,14 @@ Warning  Keyword `BUNIT' is being added to header.
 FLUXCORR COMPLETE
 X2DCORR  COMPLETE
 DISPCORR COMPLETE
-Order 1  End 13:26:33 MST
-Imset 3  End 13:26:33 MST
-Imset 4  Begin 13:26:33 MST
+Order 1  End 17:40:15 MDT
+Imset 3  End 17:40:15 MDT
+Imset 4  Begin 17:40:15 MDT
 
 HELCORR  PERFORM
 HELCORR  COMPLETE
 
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:15 MDT
 
 X2DCORR  PERFORM
 DISPCORR PERFORM
@@ -409,21 +521,93 @@ Warning  Keyword `BUNIT' is being added to header.
 FLUXCORR COMPLETE
 X2DCORR  COMPLETE
 DISPCORR COMPLETE
-Order 1  End 13:26:33 MST
-Imset 4  End 13:26:33 MST
+Order 1  End 17:40:15 MDT
+Imset 4  End 17:40:15 MDT
+Imset 5  Begin 17:40:15 MDT
 
-End      04-Feb-2022 13:26:33 MST
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+Order 1  Begin 17:40:15 MDT
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+
+FLUXCORR PERFORM
+Warning  Keyword `BUNIT' is being added to header.
+Warning  Keyword `BUNIT' is being added to header.
+FLUXCORR COMPLETE
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 17:40:15 MDT
+Imset 5  End 17:40:15 MDT
+Imset 6  Begin 17:40:15 MDT
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+Order 1  Begin 17:40:15 MDT
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+
+FLUXCORR PERFORM
+Warning  Keyword `BUNIT' is being added to header.
+Warning  Keyword `BUNIT' is being added to header.
+FLUXCORR COMPLETE
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 17:40:15 MDT
+Imset 6  End 17:40:15 MDT
+Imset 7  Begin 17:40:15 MDT
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+Order 1  Begin 17:40:15 MDT
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+
+FLUXCORR PERFORM
+Warning  Keyword `BUNIT' is being added to header.
+Warning  Keyword `BUNIT' is being added to header.
+FLUXCORR COMPLETE
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 17:40:15 MDT
+Imset 7  End 17:40:15 MDT
+Imset 8  Begin 17:40:15 MDT
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+Order 1  Begin 17:40:15 MDT
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+
+FLUXCORR PERFORM
+Warning  Keyword `BUNIT' is being added to header.
+Warning  Keyword `BUNIT' is being added to header.
+FLUXCORR COMPLETE
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 17:40:15 MDT
+Imset 8  End 17:40:15 MDT
+
+End      31-Mar-2022 17:40:15 MDT
 
 *** CALSTIS-7 complete ***
 
 *** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    04-Feb-2022 13:26:33 MST
+Begin    31-Mar-2022 17:40:15 MDT
 
 Warning  Grating-aperture throughput correction table (GACTAB) was not found,
          and no gac corrections will be applied
-Input    lc_output/oehub3010_335s_flt.fits
-Output   lc_output/oehub3010_335s_x1d.fits
-Rootname oehub3010
+Input    lc_output/oehua2010_160s_flt.fits
+Output   lc_output/oehua2010_160s_x1d.fits
+Rootname oehua2010
 OBSMODE  TIME-TAG
 APERTURE 52X0.1
 OPT_ELEM G140M
@@ -437,14 +621,14 @@ SPTRCTAB oref$q8l14504o_1dt.fits
 SPTRCTAB PEDIGREE=INFLIGHT 27/02/1997 06/02/1999
 SPTRCTAB DESCRIP =New G140L traces and updated Echelle A2CENTER values
 
-Imset 1  Begin 13:26:33 MST
+Imset 1  Begin 17:40:15 MDT
          Input read into memory.
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:15 MDT
 X1DCORR  PERFORM
 BACKCORR PERFORM
 ******** Calling Slfit ***********BACKCORR COMPLETE
 X1DCORR  COMPLETE
-         Spectrum extracted at y position = 382.61
+         Spectrum extracted at y position = 391.023
 
 DISPCORR PERFORM
 DISPTAB  oref$m7p16110o_dsp.fits
@@ -480,18 +664,18 @@ FLUXCORR COMPLETE
 SGEOCORR OMIT
 
          Row 1 written to disk.
-Order 1  End 13:26:33 MST
+Order 1  End 17:40:15 MDT
 
-Imset 1  End 13:26:33 MST
+Imset 1  End 17:40:15 MDT
 
-Imset 2  Begin 13:26:33 MST
+Imset 2  Begin 17:40:15 MDT
          Input read into memory.
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:15 MDT
 X1DCORR  PERFORM
 BACKCORR PERFORM
 ******** Calling Slfit ***********BACKCORR COMPLETE
 X1DCORR  COMPLETE
-         Spectrum extracted at y position = 382.963
+         Spectrum extracted at y position = 390.878
 
 DISPCORR PERFORM
 DISPCORR COMPLETE
@@ -504,18 +688,18 @@ FLUXCORR COMPLETE
 SGEOCORR OMIT
 
          Row 1 written to disk.
-Order 1  End 13:26:33 MST
+Order 1  End 17:40:15 MDT
 
-Imset 2  End 13:26:33 MST
+Imset 2  End 17:40:15 MDT
 
-Imset 3  Begin 13:26:33 MST
+Imset 3  Begin 17:40:15 MDT
          Input read into memory.
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:15 MDT
 X1DCORR  PERFORM
 BACKCORR PERFORM
 ******** Calling Slfit ***********BACKCORR COMPLETE
 X1DCORR  COMPLETE
-         Spectrum extracted at y position = 383.097
+         Spectrum extracted at y position = 391.021
 
 DISPCORR PERFORM
 DISPCORR COMPLETE
@@ -528,18 +712,18 @@ FLUXCORR COMPLETE
 SGEOCORR OMIT
 
          Row 1 written to disk.
-Order 1  End 13:26:33 MST
+Order 1  End 17:40:16 MDT
 
-Imset 3  End 13:26:33 MST
+Imset 3  End 17:40:16 MDT
 
-Imset 4  Begin 13:26:33 MST
+Imset 4  Begin 17:40:16 MDT
          Input read into memory.
-Order 1  Begin 13:26:33 MST
+Order 1  Begin 17:40:16 MDT
 X1DCORR  PERFORM
 BACKCORR PERFORM
 ******** Calling Slfit ***********BACKCORR COMPLETE
 X1DCORR  COMPLETE
-         Spectrum extracted at y position = 383.186
+         Spectrum extracted at y position = 391.213
 
 DISPCORR PERFORM
 DISPCORR COMPLETE
@@ -552,29 +736,111 @@ FLUXCORR COMPLETE
 SGEOCORR OMIT
 
          Row 1 written to disk.
-Order 1  End 13:26:33 MST
+Order 1  End 17:40:16 MDT
 
-Imset 4  End 13:26:33 MST
+Imset 4  End 17:40:16 MDT
+
+Imset 5  Begin 17:40:16 MDT
+         Input read into memory.
+Order 1  Begin 17:40:16 MDT
+X1DCORR  PERFORM
+BACKCORR PERFORM
+******** Calling Slfit ***********BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 391.294
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+FLUXCORR COMPLETE
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 1  End 17:40:16 MDT
+
+Imset 5  End 17:40:16 MDT
+
+Imset 6  Begin 17:40:16 MDT
+         Input read into memory.
+Order 1  Begin 17:40:16 MDT
+X1DCORR  PERFORM
+BACKCORR PERFORM
+******** Calling Slfit ***********BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 391.215
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+FLUXCORR COMPLETE
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 1  End 17:40:16 MDT
+
+Imset 6  End 17:40:16 MDT
+
+Imset 7  Begin 17:40:16 MDT
+         Input read into memory.
+Order 1  Begin 17:40:16 MDT
+X1DCORR  PERFORM
+BACKCORR PERFORM
+******** Calling Slfit ***********BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 391.088
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+FLUXCORR COMPLETE
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 1  End 17:40:16 MDT
+
+Imset 7  End 17:40:16 MDT
+
+Imset 8  Begin 17:40:16 MDT
+         Input read into memory.
+Order 1  Begin 17:40:16 MDT
+X1DCORR  PERFORM
+BACKCORR PERFORM
+******** Calling Slfit ***********BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 391.105
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+FLUXCORR COMPLETE
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 1  End 17:40:16 MDT
+
+Imset 8  End 17:40:16 MDT
 
 Warning  Keyword `XTRACALG' is being added to header.
-End      04-Feb-2022 13:26:33 MST
+End      31-Mar-2022 17:40:16 MDT
 
 *** CALSTIS-6 complete ***
 
-End      04-Feb-2022 13:26:33 MST
+End      31-Mar-2022 17:40:16 MDT
 
 *** CALSTIS-0 complete ***
-
-*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    31-Mar-2022 17:33:54 MDT
-
-Input    lc_output/oehub3010_335s_raw.fits
-Outroot  lc_output/oehub3010_335s
-Wavecal  /media/david/2tb_ext_hd/hddata/eg_uma/hst/stis/oehub3010_wav.fits
-
-*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
-Begin    31-Mar-2022 17:33:54 MDT
-Input    lc_output/oehub3010_335s_raw.fits
-Output   lc_output/oehub3010_335s_flt.fits
-ERROR    Output file `lc_output/oehub3010_335s_flt.fits' already exists.
-calstis0 failed.

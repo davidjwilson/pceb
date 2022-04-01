@@ -564,3 +564,17 @@ End      04-Feb-2022 13:26:36 MST
 End      04-Feb-2022 13:26:36 MST
 
 *** CALSTIS-0 complete ***
+
+*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    31-Mar-2022 17:33:54 MDT
+
+Input    lc_output/oehua4010_335s_raw.fits
+Outroot  lc_output/oehua4010_335s
+Wavecal  /media/david/2tb_ext_hd/hddata/eg_uma/hst/stis/oehua4010_wav.fits
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    31-Mar-2022 17:33:54 MDT
+Input    lc_output/oehua4010_335s_raw.fits
+Output   lc_output/oehua4010_335s_flt.fits
+ERROR    Output file `lc_output/oehua4010_335s_flt.fits' already exists.
+calstis0 failed.
