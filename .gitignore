@@ -1,5 +1,6 @@
 #don't want to upload big igrns/xmm files
 *.fits
+*.fit
 xmm/data/*
 *.zip
 eg_uma/hst_budget/*
