@@ -6,3 +6,4 @@ eg_uma/hst_budget/*
 eg_uma/hst_prop/visit-planner/*
 *apt*
 lyapy_up
+*.ds #xmm files
