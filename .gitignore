@@ -8,3 +8,5 @@ eg_uma/hst_prop/visit-planner/*
 *apt*
 lyapy_up
 *.ds #xmm files
+*.rmf
+*.arf

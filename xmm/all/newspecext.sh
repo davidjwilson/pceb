@@ -2,19 +2,19 @@
 
 #spectra
 
-evselect table=m1_S002_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EMOS1source_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=11999 expression='#XMMEA_EM && (PATTERN<=12) && ((X,Y) IN circle(26139.396,23874.984,600))'
+evselect table=m1_S002_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EMOS1source_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=11999 expression='#XMMEA_EM && (PATTERN<=12) && ((X,Y) IN circle(25318.488,23961.812,600))'
 
-evselect table=m2_S003_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EMOS2source_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=11999 expression='#XMMEA_EM && (PATTERN<=12) && ((X,Y) IN circle(26139.396,23874.984,600))'
+evselect table=m2_S003_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EMOS2source_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=11999 expression='#XMMEA_EM && (PATTERN<=12) && ((X,Y) IN circle(25318.488,23961.812,600))'
 
-evselect table=pn_S001_ImagingEvts_events_gtifiltered.fit withspectrumset=yes  spectrumset=EPNsource_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=20479 expression='(FLAG==0) && (PATTERN<=4) && ((X,Y) IN circle(26139.396,23874.984,600))'
+evselect table=pn_S001_ImagingEvts_events_gtifiltered.fit withspectrumset=yes  spectrumset=EPNsource_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=20479 expression='(FLAG==0) && (PATTERN<=4) && ((X,Y) IN circle(25318.488,23961.812,600))'
 #acceptchanrange=yes
 #background
 
-evselect table=m1_S002_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EMOS1background_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=11999 expression='#XMMEA_EM && (PATTERN<=12) && ((X,Y) IN circle(25784.9,23989.3,13200))'
+evselect table=m1_S002_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EMOS1background_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=11999 expression='#XMMEA_EM && (PATTERN<=12) && ((X,Y) IN circle(23184.5,24932.5,1165.09))'
 
-evselect table=m2_S003_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EMOS2background_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=11999 expression='#XMMEA_EM && (PATTERN<=12) && ((X,Y) IN circle(25784.9,23989.3,13200))'
+evselect table=m2_S003_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EMOS2background_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=11999 expression='#XMMEA_EM && (PATTERN<=12) && ((X,Y) IN circle(23184.5,24932.5,1165.09))'
 
-evselect table=pn_S001_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EPNbackground_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=20479 expression='(FLAG==0) && (PATTERN<=4) && ((X,Y) IN circle(25784.9,23989.3,13200))'
+evselect table=pn_S001_ImagingEvts_events_gtifiltered.fit withspectrumset=yes spectrumset=EPNbackground_spectrum.fits energycolumn=PI spectralbinsize=5 withspecranges=yes specchannelmin=0 specchannelmax=20479 expression='(FLAG==0) && (PATTERN<=4) && ((X,Y) IN circle(23184.5,24932.5,1165.09))'
 
 #backscale
 
@@ -51,4 +51,5 @@ epicspeccombine pha="EMOS1source_spectrum.fits EMOS2source_spectrum.fits EPNsour
 
 #bin spectrum
 specgroup spectrumset=src_spectrum_grp.ds groupedset=src_spectrum_bin25.ds mincounts=25 lastbin="setbad"
+specgroup spectrumset=src_spectrum_grp.ds groupedset=src_spectrum_bin10.ds mincounts=10 lastbin="setbad"
 
