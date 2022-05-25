@@ -5,7 +5,7 @@
 
 
 __version__  = '0.1'
-__author__      = "Barack Obama"
+__author__      = "David Wilson"
 
 import numpy as np
 from astropy.table import Table
@@ -23,7 +23,7 @@ from pathlib import Path
 
 
     
-def fetch_files(det, grating, lpPos, cenwave, disptab):
+def fetch_files(det, grating, lpPos, cenwave, disptab, datadir):
     """
     Given all the inputs: (detector, grating, LP-POS, cenwave, dispersion table,) this will download both
     the LSF file and Disptab file you should use in the convolution and return their paths.
@@ -286,39 +286,41 @@ def get_lsf_file(x1dpath, datadir):
             param_dict[hdrKeyword] = value
         print(f"{hdrKeyword} = {value}")  # Print the key/value pairs
     
-    LSF_file_name, disptab_path = fetch_files(*list(param_dict.values()))
+    LSF_file_name, disptab_path = fetch_files(*list(param_dict.values()), datadir)
     return LSF_file_name, disptab_path
     
 #test
-path = '/media/david/2tb_ext_hd/hddata/'
-x1dfile = 'ldlc04010_x1dsum.fits'
-x1dpath = '{}pcebs/hst/cos/{}'.format(path, x1dfile)
-datadir = Path('{}cos_lsfs'.format(path))
-LSF_file_name, disptab_path = get_lsf_file(x1dpath, datadir)
+def test():
+    path = '/media/david/2tb_ext_hd/hddata/'
+    x1dfile = 'ldlc04010_x1dsum.fits'
+    x1dpath = '{}pcebs/hst/cos/{}'.format(path, x1dfile)
+    datadir = Path('{}cos_lsfs'.format(path))
+    LSF_file_name, disptab_path = get_lsf_file(x1dpath, datadir)
 
-mw, mf = np.loadtxt('../models/LM-COM_04010-2.dk', unpack=True, skiprows= 40 )
-mask = (mw > 1130) & (mw < 1425)
-mw, mf = mw[mask], mf[mask]
+    mw, mf = np.loadtxt('../models/LM-COM_04010-2.dk', unpack=True, skiprows= 40 )
+    mask = (mw > 1130) & (mw < 1425)
+    mw, mf = mw[mask], mf[mask]
 
-lsfpath = '{}/{}'.format(datadir, LSF_file_name)
+    lsfpath = '{}/{}'.format(datadir, LSF_file_name)
 
-mwc, mfc = convolve_lsf(mw, mf, 1291, lsfpath, disptab_path, detector="FUV")
-
-
-plt.figure()
+    mwc, mfc = convolve_lsf(mw, mf, 1291, lsfpath, disptab_path, detector="FUV")
 
 
-data = fits.getdata(x1dpath,1)
-for dt in data[::-1]:
-    plt.plot(dt['WAVELENGTH'], dt['FLUX']/np.median(dt['FLUX']))
+    plt.figure()
+
+
+    data = fits.getdata(x1dpath,1)
+    for dt in data[::-1]:
+        plt.plot(dt['WAVELENGTH'], dt['FLUX']/np.median(dt['FLUX']))
 
 
 
-plt.plot(mw, mf/np.median(mf))
-plt.plot(mwc, mfc/np.median(mfc))
+    plt.plot(mw, mf/np.median(mf))
+    plt.plot(mwc, mfc/np.median(mfc))
 
-plt.show()
+    plt.show()
 
+test()
 # #temp
 # cwd = Path(".")
 # datadir = cwd / "data"
