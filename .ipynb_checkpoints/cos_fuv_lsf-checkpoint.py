@@ -12,12 +12,13 @@ from astropy.table import Table
 from astropy.io import fits
 from astropy.modeling import functional_models
 from astropy.convolution import convolve
-from astroquery.mast import Observations
+# from astroquery.mast import Observations
 from scipy.interpolate import interp1d
 from matplotlib import pyplot as plt
 import urllib 
 import tarfile
 from pathlib import Path
+import os
 
 
 
@@ -31,6 +32,7 @@ def fetch_files(det, grating, lpPos, cenwave, disptab, datadir):
     LSF_file_name (str): filename of the new downloaded LSF file
     disptab_path (str): path to the new downloaded disptab file
     """
+    existing_files = os.listdir(datadir)
     COS_site_rootname = (
         "https://www.stsci.edu/files/live/sites/www/files/home/hst/instrumentation/cos/"
         "performance/spectral-resolution/_documents/"
@@ -39,20 +41,22 @@ def fetch_files(det, grating, lpPos, cenwave, disptab, datadir):
         LSF_file_name = "nuv_model_lsf.dat"
     elif det == "FUV":  # FUV files follow a naming pattern
         LSF_file_name = f"aa_LSFTable_{grating}_{cenwave}_LP{lpPos}_cn.dat"
-
-    LSF_file_webpath = COS_site_rootname + LSF_file_name  # Where to find file online
-    urllib.request.urlretrieve(
-        LSF_file_webpath, str(datadir / LSF_file_name)
-    )  # Where to save file to locally
-    print(f"Downloaded LSF file to {str(datadir/ LSF_file_name)}")
+        
+    if LSF_file_name not in existing_files:
+        LSF_file_webpath = COS_site_rootname + LSF_file_name  # Where to find file online
+        urllib.request.urlretrieve(
+            LSF_file_webpath, str(datadir / LSF_file_name)
+        )  # Where to save file to locally
+        print(f"Downloaded LSF file to {str(datadir/ LSF_file_name)}")
 
     # And we'll need to get the DISPTAB file as well
     disptab_path = str(datadir / disptab)
-    urllib.request.urlretrieve(
-        f"https://hst-crds.stsci.edu/unchecked_get/references/hst/{disptab}",
-        disptab_path,
-    )
-    print(f"Downloaded DISPTAB file to {disptab_path}")
+    if disptab not in existing_files:
+        urllib.request.urlretrieve(
+            f"https://hst-crds.stsci.edu/unchecked_get/references/hst/{disptab}",
+            disptab_path,
+        )
+        print(f"Downloaded DISPTAB file to {disptab_path}")
 
     return LSF_file_name, disptab_path
 
