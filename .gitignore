@@ -1,11 +1,18 @@
 #don't want to upload big igrns/xmm files
 *.fits
+*.fit
 xmm/data/*
 *.zip
 eg_uma/hst_budget/*
 eg_uma/hst_prop/visit-planner/*
 *apt*
 lyapy_up
+<<<<<<< HEAD
 hst_lya_proposal/*
 tess_proposal/data/*
 *.deb
+=======
+*.ds #xmm files
+*.rmf
+*.arf
+>>>>>>> 809ae7ba9259b93ae9b1b5f63bcfadf6bc95ad97
